@@ -15,7 +15,7 @@ function showGIF(gifImages) {
 
         const dataSpan = document.createElement('span')
     
-        dataSpan.innerText = gifImages.mood
+        dataSpan.src = gifImages.gif
     
         const moodBar = document.getElementById('mood-bar')
     
@@ -28,4 +28,8 @@ function showGIF(gifImages) {
         })
     }
 
+    // create a like button to show how you are feeling w/ the copy "give a like to show your mood right now"
+    // add event listener "like" that adds the current likes plus 1
     
+
+    // stretch goals: add a new gif/emotion/fact submit event and post a patch request
