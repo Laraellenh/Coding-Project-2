@@ -1,14 +1,31 @@
-let APIKEY = "eoIS0b0eoJAXqllCNBsmWHr70q9CPinJ"
-        document.addEventListener("DOMContentLoaded", mood)
-        function mood(){
-            document.getElementById("").addEventListener("click", event => {
-                event.preventDefault();
-                let url = "api.giphy.com/v1/gifs/search?api_key=${APIKEY}&limit=10&q="
-                let 
+const URL = "http://localhost:3000/emotion"
 
-                console.log(url)
-                fetch(url)
-                    .then(response => response)
-                    .then()
-            })
-        }
+// CALLED FUNCTIONS
+getData()
+
+function getData() {
+    fetch(URL)
+        .then(res => res.json())
+        .then(emotionArray => emotionArray.forEach(showGIF))
+        // .then(emotionArray => console.log(emotionArray))
+}
+
+// Show GIFs on page
+function showGIF(gifImages) {
+
+        const dataSpan = document.createElement('span')
+    
+        dataSpan.innerText = gifImages.mood
+    
+        const charBar = document.getElementById('character-bar')
+    
+        charBar.appendChild(dataSpan)
+    
+        dataSpan.addEventListener('click', () => {
+            document.getElementById('mood').innerText = gifImages.mood
+            document.getElementById('fact').innerText = gifImages.fact
+            document.getElementById('gif').src = gifImages.gif
+        })
+    }
+
+    

@@ -1,36 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="Lara Hocheiser and Angel Rosario" content="width=device-width, initial-scale=1.0">
-    <title>Giphy Feelings Mood Meter</title>
-</head>
-<body>
-   
-    <div> class="emotionWords" 
-        div id="mood bar"
-        <p id="moodName">How Do You Feel?</p>
-        <!show moddd words here -->
-        <span></span>
-
-    </div>
-    <div class= "Mood Gif Details"
-
-     div id= "moodGifDeets"
-     <p id= "moodWord">DOes this look like your mood?</p>
-     <img>"gif"
-     src= "https://giphy.com/"
-     alt= "gif-images"
-     /><!-- display GIF image here -->
-     <h4>Total people feeling this way: <span id="vote-count">People's Votes</span></h4>
-     <form id="votes-form">
-        <input type="text" placeholder="Feeling this way?" id="votes" name="votes" />
-        <input type="submit" value="Add Votes" />
-      </form>
-      <button id="reset-btn">Reset Votes</button>
-    </div>
-    <script src='./src/index.js'></script>
+<html>
+  <head>
+    <title>Emotions</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <script src='./src/data.js'></script>
-</body>
+    <script src='./src/script.js'></script>
+  </head>
+  <body>
+    <div class="logo">
+      <h1>MOOD</h1>
+    </div>
+
+    <div id="character-bar">
+      <!-- show characters names here -->
+    </div>
+
+    <div class="characterInfo">
+      <div id="detailed-info">
+        <p id="name"> </p>How are you feeling today?</p>
+        <!-- <img
+          id="gif"
+          src="./src/data.js"
+          alt="Emotion" -->
+        <!-- display character image here -->
+        <!-- <h4>Total Votes: <span id="vote-count">Character's Votes</span></h4> -->
+        <!-- <form id="votes-form"> --> -->
+          <!-- <input type="text" placeholder="Enter Votes" id="votes" name="votes" /> -->
+          <!-- <input type="submit" value="Add Votes" /> -->
+        <!-- </form> -->
+        <!-- <button id="reset-btn">Reset Votes</button> -->
+    </div>
+
+    </body>
 </html>
