@@ -1,34 +1,40 @@
  {
-    "mood": [
+    "emotion": [
     {
                 "id": 1,
                 "mood": "Happy",
+                "fact": "They say that happiness is caused by pleasant sensations in the body. These sensations are a reaction to various biochemical substances (serotonin, dopamine, oxytocin) running around in your blood and the flurry of electrical signals firing in your complex brain biology. The next time you feel happy, notice what prompted it. Those kinds of stimuli may be reliable sources of future happiness for you.",
                 "gif": "https://i.giphy.com/media/MeIucAjPKoA120R7sN/giphy.webp"
               },
               {
                 "id": 2,
                 "mood": "Content",
-                "gif": " "
+                "fact": "Did you know that narrative stories about people helping each other produced the biochemical seratonin, which helps to create a feeling on contentment? Throw out your gratitude lest and start telling stories of helping and being helped.",
+                "gif": "https://i.giphy.com/media/l3nSxjAxHO3zo49cQ/200w.webp"
             },
             {
                 "id": 3,
                 "mood": "Calm",
-                "gif": " "
+                "fact": "did you know that, 'Chamomile is widely regarded as a mild tranquilizer and sleep-inducer. Sedative effects may be due to the flavonoid, apigenin that binds to benzodiazepine receptors in the brain.' Therefore, to promote calm, you can drink chamomile tea.",
+                "gif": "https://i.giphy.com/media/xiEaqGsXOPRELmGFym/200w.webp"
             },
             {
                 "id": 4,
                 "mood": "Wild",
-                "gif": ""
+                "fact": "Norepinephrine is the biochemical that gets us going.  But, if we have too much of this biochemical released from stress or urgency, we may feel wild or out of control. We need norepinephrine, though, to have the energy and focus to get things done.",
+                "gif": "https://i.giphy.com/media/1n83V8ss2ZOrHs1FyJ/200.webp"
             },
             {
                 "id": 5,
                 "mood": "Stressed",
+                "fact": "Dr. Akil and colleagues discovered that endorphins, naturally occurring opioids in the human system, including the brain, are activated by stress and can relieve pain.",
                 "gif": "https://i.giphy.com/media/tZiLOffTNGoak/giphy.webp"
             },
             {
                 "id": 6,
-                "mood": "Mad",
+                "mood": "Angry",
+                "fact": "When you are angry, your lateral orbitofrontal cortex is activated.",
                 "gif": "https://i.giphy.com/media/3o7bu8mwh3U6SXtLjy/giphy.webp"
-    }
-             ]
+            }
+        ]
 }
