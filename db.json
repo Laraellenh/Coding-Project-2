@@ -1,20 +1,34 @@
  {
     "mood": [
-
     {
-        "id": 1,
-        "mood": "Happy",
-        "gif": "https://i.giphy.com/media/MeIucAjPKoA120R7sN/giphy.webp"
+                "id": 1,
+                "mood": "Happy",
+                "gif": "https://i.giphy.com/media/MeIucAjPKoA120R7sN/giphy.webp"
               },
               {
-         "id": 2,
-        "mood": "Stressed",
-        "gif": "https://i.giphy.com/media/tZiLOffTNGoak/giphy.webp"
-              },
-              {
-        "id": 3,
-        "mood": "Mad",
-        "gif": "https://i.giphy.com/media/3o7bu8mwh3U6SXtLjy/giphy.webp"
-              }
-            ]
+                "id": 2,
+                "mood": "Content",
+                "gif": " "
+            },
+            {
+                "id": 3,
+                "mood": "Calm",
+                "gif": " "
+            },
+            {
+                "id": 4,
+                "mood": "Wild",
+                "gif": ""
+            },
+            {
+                "id": 5,
+                "mood": "Stressed",
+                "gif": "https://i.giphy.com/media/tZiLOffTNGoak/giphy.webp"
+            },
+            {
+                "id": 6,
+                "mood": "Mad",
+                "gif": "https://i.giphy.com/media/3o7bu8mwh3U6SXtLjy/giphy.webp"
+    }
+             ]
 }

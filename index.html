@@ -3,12 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./src/data.js"></script>
-    <script src="./src/script.js"></script>
-    <title>Document</title>
+    <meta name="Lara Hocheiser and Angel Rosario" content="width=device-width, initial-scale=1.0">
+    <title>Giphy Feelings Mood Meter</title>
 </head>
 <body>
    
+    <div> class="emotionWords" 
+        div id="mood bar"
+        <p id="moodName">How Do You Feel?</p>
+        <!show moddd words here -->
+        <span></span>
+
+    </div>
+    <div class= "Mood Gif Details"
+
+     div id= "moodGifDeets"
+     <p id= "moodWord">DOes this look like your mood?</p>
+     <img>"gif"
+     src= "https://giphy.com/"
+     alt= "gif-images"
+     /><!-- display GIF image here -->
+     <h4>Total people feeling this way: <span id="vote-count">People's Votes</span></h4>
+     <form id="votes-form">
+        <input type="text" placeholder="Feeling this way?" id="votes" name="votes" />
+        <input type="submit" value="Add Votes" />
+      </form>
+      <button id="reset-btn">Reset Votes</button>
+    </div>
+    <script src='./src/index.js'></script>
+    <script src='./src/data.js'></script>
 </body>
 </html>
