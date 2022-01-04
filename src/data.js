@@ -17,9 +17,9 @@ function showGIF(gifImages) {
     
         dataSpan.innerText = gifImages.mood
     
-        const charBar = document.getElementById('character-bar')
+        const moodBar = document.getElementById('mood-bar')
     
-        charBar.appendChild(dataSpan)
+        moodBar.appendChild(dataSpan)
     
         dataSpan.addEventListener('click', () => {
             document.getElementById('mood').innerText = gifImages.mood
