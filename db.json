@@ -2,20 +2,20 @@
     "emotion": [
         {
             "id": 1,
-            "mood": "Happy",
-            "fact": "They say that happiness is caused by pleasant sensations in the body. These sensations are a reaction to various biochemical substances (serotonin, dopamine, oxytocin) running around in your blood and the flurry of electrical signals firing in your complex brain biology. The next time you feel happy, notice what prompted it. Those kinds of stimuli may be reliable sources of future happiness for you.",
-            "gif": "https://i.giphy.com/media/MeIucAjPKoA120R7sN/giphy.webp"
-        },
-        {
-            "id": 2,
             "mood": "Content",
             "fact": "Did you know that narrative stories about people helping each other produced the biochemical seratonin, which helps to create a feeling on contentment? Throw out your gratitude lest and start telling stories of helping and being helped.",
             "gif": "https://i.giphy.com/media/l3nSxjAxHO3zo49cQ/200w.webp"
         },
         {
+            "id": 2,
+            "mood": "Happy",
+            "fact": "They say that happiness is caused by pleasant sensations in the body. These sensations are a reaction to various biochemical substances (serotonin, dopamine, oxytocin) running around in your blood and the flurry of electrical signals firing in your complex brain biology. The next time you feel happy, notice what prompted it. Those kinds of stimuli may be reliable sources of future happiness for you.",
+            "gif": "https://i.giphy.com/media/MeIucAjPKoA120R7sN/giphy.webp"
+        },
+        {
             "id": 3,
             "mood": "Calm",
-            "fact": "did you know that, 'Chamomile is widely regarded as a mild tranquilizer and sleep-inducer. Sedative effects may be due to the flavonoid, apigenin that binds to benzodiazepine receptors in the brain.' Therefore, to promote calm, you can drink chamomile tea.",
+            "fact": "Did you know that Chamomile is widely regarded as a mild tranquilizer and sleep-inducer? Sedative effects may be due to the flavonoid, apigenin that binds to benzodiazepine receptors in the brain. Therefore, to promote calm, you can drink chamomile tea.",
             "gif": "https://i.giphy.com/media/xiEaqGsXOPRELmGFym/200w.webp"
         },
         {
