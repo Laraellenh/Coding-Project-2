@@ -1,6 +1,49 @@
 .logo{
-    text-align: center;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    padding: 0.5em;
-  }
+  text-align: center;
+  background-color: e76f51;
+  color: e9c46a;
+  padding: 0.5em;
+}
+.moodInfo{
+text-align: center;
+image-orientation: center;
+background-color: e76f51;
+color: 2a9d8f;
+font-family: sans-serif;
+}
+.moodbar{
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+color: e9c46a;
+}
+
+/* span{
+
+image-orientation: center;
+background-color: f4a261
+color: 2a9d8f
+margin-left: auto;
+margin-right: auto; */
+
+
+img {
+ 
+  margin-left: auto;
+  margin-right: auto;
+  width: 12%;
+  block-size: 16%;
+  display:inline-block
+
+}
+
+.center {
+  text-align: center;
+  border: 3px solid 2a9d8f
+}
+
+.span{
+  text-align: center;
+  font-family: sans-serif;
+  background-color: #2a9d8f
+}
